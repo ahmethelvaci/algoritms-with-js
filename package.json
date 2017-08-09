@@ -1,0 +1,9 @@
+{
+  "name": "algoritms-with-js",
+  "version": "0.1.0",
+  "description": "I solved problems from fcc",
+  "main": "index.js",
+  "repository": "git@github.com:ahmethelvaci/algoritms-with-js.git",
+  "author": "Ahmet Helvaci <ahmethelv@gmail.com>",
+  "license": "MIT"
+}
