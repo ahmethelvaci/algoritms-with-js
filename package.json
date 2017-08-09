@@ -15,6 +15,7 @@
   "scripts": {
     "lint:eslint": "eslint .",
     "lint": "yarn run lint:eslint",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js"
   }
 }
