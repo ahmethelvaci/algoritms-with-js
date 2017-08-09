@@ -7,15 +7,19 @@
   "author": "Ahmet Helvaci <ahmethelv@gmail.com>",
   "license": "GPL-3.0",
   "devDependencies": {
+    "codecov": "^2.3.0",
     "eslint": "^4.4.1",
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.7.0",
+    "istanbul": "^0.4.5",
     "jest": "^20.0.4"
   },
   "scripts": {
     "lint:eslint": "eslint .",
     "lint": "yarn run lint:eslint",
     "test": "jest",
-    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js"
+    "test:ci": "yarn run lint && yarn run test && yarn run coverage",
+    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js",
+    "postcoverage": "istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80"
   }
 }
