@@ -13,6 +13,8 @@
     "jest": "^20.0.4"
   },
   "scripts": {
+    "lint:eslint": "eslint .",
+    "lint": "yarn run lint:eslint",
     "test": "jest"
   }
 }
