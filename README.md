@@ -12,4 +12,4 @@ I collect solved problems from fcc here. Fcc has got good and basic software pro
 ### Solved Problems
 1. [Reverse String](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/reverseString.js)
 2. [Factorialize](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/factorialize.js)
-
+3. [Palindromes](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/palindromes.js)
