@@ -11,7 +11,7 @@ function longestWord(str) {
   // word length array sort
   // return first
   return str.split(' ')
-    .map(w => Number(w.length))
+    .map(w => parseInt(w.length, 10))
     .sort((a, b) => (b - a))[0];
 }
 
