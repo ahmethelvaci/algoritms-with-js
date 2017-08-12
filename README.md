@@ -13,3 +13,4 @@ I collect solved problems from fcc here. Fcc has got good and basic software pro
 1. [Reverse String](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/reverseString.js)
 2. [Factorialize](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/factorialize.js)
 3. [Palindromes](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/palindromes.js)
+4. [Find thw Longest Word in a String](https://github.com/ahmethelvaci/algoritms-with-js/blob/master/src/algoritms/basic/longestWord.js)
