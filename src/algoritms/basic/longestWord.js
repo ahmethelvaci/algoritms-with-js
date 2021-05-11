@@ -1,7 +1,7 @@
 /**
  * Return the length of the longest word in the provided sentence.
  * Your response should be a number.
- * 
+ *
  * @param {string} str - word group or sentence
  * @returns {number}
  */
@@ -11,7 +11,7 @@ function longestWord(str) {
   // word length array sort
   // return first
   return str.split(' ')
-    .map(w => parseInt(w.length, 10))
+    .map((w) => parseInt(w.length, 10))
     .sort((a, b) => (b - a))[0];
 }
 
